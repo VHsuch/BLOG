@@ -1,0 +1,50 @@
+body{
+    text-align:center;
+    margin:0;
+    padding-top:800px;
+}
+#Welcome{
+    position: absolute;
+    height:800px;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    background:linear-gradient(#4254f5 0%,#f54242 100%);
+}
+#img1{
+    margin-top:200px;
+    width:275px;
+    margin-bottom:50px;
+    border-radius:50%;
+    
+}
+#m1{
+    font-size:32px;
+}
+h1{
+    font-size:64px;
+    font-family:monospace;
+}
+.menu{
+    list-style:none;
+    font-family:inherit;
+    position:absolute;
+    top: 10px;
+    right: 130px;
+    z-index: 10;
+    cursor: pointer;
+}
+.link{
+    float:left;
+    color:lawngreen;
+    padding-top:5px;
+    padding-left:9x;
+    padding-right:9;
+    padding-bottom:5px;
+    font-size:25px;
+}
+.link:hover{
+    background-color: blue;
+    font-size:30px;
+}
